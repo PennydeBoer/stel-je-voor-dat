@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tiny5&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stel je voor</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Startpagina</a></li>
+                <li><a href="overmij.html">Ik en collecties</a></li>
+                <li><a href="top10.html">Top 10 games</a></li>
+            </ul>
+        </nav>
+        <button onclick="myFunction()" class="DMbutton">Dark Mode</button>
+    </header>
+    <main>
+        <section>
+            <h1>Navigatie</h1>
+        </section>
+        <article class="box">
+            <a href="overmij.html">
+            <figure>
+                <img src="img/Hwei_0.jpg" alt="Hwei">
+            </figure> 
+            <section>
+                <h2>Penny</h2>
+                <p> hier lees je een beetje over mij</p>
+            </section>
+
+        </a>
+        </article>
+        <article class="box">
+            <a href="top10.html">
+            <figure>
+                <img src="img/maxresdefault.jpg" alt="Pheonix Wright">
+            </figure> 
+            <section>
+                <h2>Games</h2>
+                <p> Mijn top 10 games</p>
+            </section>
+        </a>
+        </article>
+    </section>
+
+    </main>
+    <footer>
+        <p>Gemaakt door Penny</p>
+        </footer>
+</body>
+<script>
+    function myFunction() {
+    var element = document.body;
+        element.classList.toggle("dark-modebody");}{
+ }
+</script>
+</html>
